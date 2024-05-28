@@ -8,39 +8,55 @@
   <title>Frontend Mentor | Fylo data storage component</title>
 </head>
 <body>
-  <img class="img-back" src="images/bg-desktop.png" alt="">
 
 
   <main class="container">
-
-<!-- LEFT -->
-
-      <div class="left">
-        <img src="images/logo.svg" alt="logo">
-        <div class="icons">
-          <img src="images/icon-document.svg" alt="document icon">
-          <img src="images/icon-folder.svg" alt="folder icon">
-          <img src="images/icon-upload.svg" alt="upload icon">
+    <div class="left">
+      <div class="left-inside">
+        <img class="logo" src="images/logo.svg" alt="">
+        <div class="tools">
+          <div class="icon"><img src="images/icon-document.svg" alt=""></div>
+          <div class="icon"><img src="images/icon-folder.svg" alt=""></div>
+          <div class="icon"><img src="images/icon-upload.svg" alt=""></div>
         </div>
-      </div>
-
-<!-- RIGHT -->
-    
-    <div class="right">
-      <div class="bubble">
-        <div><p>185 GB Left</p></div>
-        <div></div>
-      </div>
-      <p>You’ve used <span class="bold">815 GB</span> of your storage</p>
-      <div></div>
-      <div class="scale">
-        <p>0 GB</p>
-        <p> 1000 GB</p>
       </div>
     </div>
 
-<!-- END -->
+    <div class="middle"></div>
 
+    <div class="bubble-zone">
+      <div class="bubble">
+        <div class="bubble-data">
+          <p class="data-one">1</p>
+          <p class="data-two">8</p>
+          <p class="data-three">5</p>
+        </div>
+        <p class="gb-left">GB LEFT</p>
+      </div>
+      <div class="bubble-queu"></div>
+    </div>
+
+    <div class="right">
+
+      <div class="right-inside">
+        <h2>You've used <span class="bold">815 GB</span> of your storage</h2>
+
+        <div class="line">
+          <div class="line-inside">
+            <div class="line-round"></div>
+          </div>
+        </div>
+
+        <div class="scale">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </div>
+
+      </div>
+
+    </div>
   </main>
+
+  
 </body>
 </html>
